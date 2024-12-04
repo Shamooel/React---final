@@ -1,0 +1,124 @@
+.user-info {
+  text-align: center;
+  padding: 20px;
+  font-size: larger;
+  background: linear-gradient(135deg, #111111, #54738f);
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  width: 210px;
+  height: 750px;
+  margin-top: 10px;
+  margin-left: 10px;
+  box-shadow: #000000;
+}
+
+
+.user-info :hover{
+  color: brown;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.role-label {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.role-label.investor {
+  background-color: #ffe1e1;
+  color: rgb(0, 0, 0);
+}
+
+
+
+.statistics {
+  border: 2px solid;
+  background: linear-gradient(135deg, #111111, #54738f);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  
+}
+
+.statistics :hover{
+  color: brown;
+}
+.progress-bar-container {
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 10px;
+  background: linear-gradient(135deg, #fffdfdf8,#000000,#000000,#000000);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: #4caf50;
+}
+
+.messages{
+  border: 2px solid;
+  background: linear-gradient(135deg, #111111, #54738f);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+.messages :hover{
+  color: brown;
+}
+
+
+.msg{
+  color: white;
+}
+
+
+
+
+
+.messages ul {
+  list-style: none;
+  padding: 0;
+}
+
+.messages li {
+
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+.sidebar {
+  background: #fffdfd;
+  border-right: 1px solid #ddd;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+
